@@ -1,7 +1,7 @@
 {
   "name": "gis-common-login",
-  "version": "1.0.6",
-  "description": "统一登录-更新readme",
+  "version": "1.0.8",
+  "description": "统一登录-删除默认参数配置",
   "main": "index.js",
   "module": "index.js",
   "types": "index.d.ts",

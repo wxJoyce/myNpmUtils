@@ -1,9 +1,7 @@
-import { APP_ID, SIGN_SECRET } from './config.js'
 import Rsa from './plugins/rsa.js'
 import { sha256 } from 'js-sha256'
 import axios from "axios"
-let requestUrl = 'https://dev.godouav.com/api/sso'
-const CommonLogin = async (baseUrl=requestUrl,accounts,password,vertifyCode=null,appid=APP_ID,sign_secret=SIGN_SECRET)=>{
+const CommonLogin = async (baseUrl,accounts,password,vertifyCode=null,appid,sign_secret)=>{
     console.log('into login')
     let passwordSec = Rsa.rsaPublicData(password);
     let timestamp = Math.round(new Date())
