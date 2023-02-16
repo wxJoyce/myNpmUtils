@@ -1,0 +1,29 @@
+{
+  "name": "gis-common-login",
+  "version": "1.0.6",
+  "description": "统一登录-更新readme",
+  "main": "index.js",
+  "module": "index.js",
+  "types": "index.d.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wxJoyce/myNpmUtils.git"
+  },
+  "author": "wx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wxJoyce/myNpmUtils/issues"
+  },
+  "homepage": "https://github.com/wxJoyce/myNpmUtils#readme",
+  "private": false,
+  "dependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "axios": "^1.3.3",
+    "js-sha256": "^0.9.0",
+    "nodejs-jsencrypt": "^3.0.0-rc.1"
+  }
+}
